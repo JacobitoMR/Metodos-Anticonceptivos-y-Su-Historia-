@@ -1,0 +1,17 @@
+// Función de alternar para Preguntas Frecuentes
+function toggleAnswer(index) {
+    const answers = document.querySelectorAll('.faq p');
+    answers[index].style.display = answers[index].style.display === 'block' ? 'none' : 'block';
+}
+
+// Función del cuestionario
+function checkAnswer(score) {
+    const resultElement = document.getElementById('result');
+    if (score === 20) {
+        resultElement.textContent = '¡Correcto! La píldora se popularizó en el siglo XX.';
+        resultElement.style.color = 'green';
+    } else {
+        resultElement.textContent = 'Incorrecto. Intenta de nuevo.';
+        resultElement.style.color = 'red';
+    }
+}
