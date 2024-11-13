@@ -1,0 +1,28 @@
+/* Estilos Generales */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background-color: #f3f4f7; color: #333; line-height: 1.6; display: flex; flex-direction: column; align-items: center; padding: 10px; }
+
+/* Encabezado */
+header { background-color: #4CAF50; color: white; padding: 20px; text-align: center; width: 100%; border-radius: 8px; margin-bottom: 20px; }
+h1 { margin-bottom: 10px; }
+
+/* Secciones */
+.section { max-width: 800px; width: 100%; margin: 20px; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+h2 { color: #4CAF50; margin-bottom: 10px; }
+
+/* Línea de Tiempo */
+.timeline .period { margin: 15px 0; }
+
+/* Preguntas Frecuentes */
+.faq h3 { cursor: pointer; background-color: #4CAF50; color: white; padding: 10px; border-radius: 5px; margin-top: 10px; }
+.faq p { display: none; margin: 10px 0; }
+
+/* Cuestionario */
+.quiz { text-align: center; }
+#quiz-container { display: flex; flex-direction: column; align-items: center; }
+.answer { background-color: #4CAF50; color: white; border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; }
+.answer:hover { background-color: #45a049; }
+#result { font-weight: bold; margin-top: 15px; color: #333; }
+
+/* Pie de página */
+footer { background-color: #333; color: white; padding: 10px; text-align: center; width: 100%; border-radius: 8px; }
